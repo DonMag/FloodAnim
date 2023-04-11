@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC317B8429DDCF0E00ED52E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC317B8329DDCF0E00ED52E6 /* AppDelegate.swift */; };
+		FC317B8629DDCF0E00ED52E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC317B8529DDCF0E00ED52E6 /* SceneDelegate.swift */; };
+		FC317B8829DDCF0E00ED52E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC317B8729DDCF0E00ED52E6 /* ViewController.swift */; };
+		FC317B8B29DDCF0E00ED52E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC317B8929DDCF0E00ED52E6 /* Main.storyboard */; };
+		FC317B8D29DDCF1000ED52E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC317B8C29DDCF1000ED52E6 /* Assets.xcassets */; };
+		FC317B9029DDCF1000ED52E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC317B8E29DDCF1000ED52E6 /* LaunchScreen.storyboard */; };
+		FC317B9F29DDCF6F00ED52E6 /* FloodFillImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC317B9929DDCF6D00ED52E6 /* FloodFillImageView.m */; };
+		FC317BA029DDCF6F00ED52E6 /* UIImage+FloodFill.m in Sources */ = {isa = PBXBuildFile; fileRef = FC317B9B29DDCF6E00ED52E6 /* UIImage+FloodFill.m */; };
+		FC317BA129DDCF6F00ED52E6 /* LinkedListStack.m in Sources */ = {isa = PBXBuildFile; fileRef = FC317B9D29DDCF6F00ED52E6 /* LinkedListStack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC317B8029DDCF0E00ED52E6 /* FloodAnim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloodAnim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC317B8329DDCF0E00ED52E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC317B8529DDCF0E00ED52E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC317B8729DDCF0E00ED52E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC317B8A29DDCF0E00ED52E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC317B8C29DDCF1000ED52E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC317B8F29DDCF1000ED52E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC317B9129DDCF1000ED52E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC317B9829DDCF6C00ED52E6 /* FloodAnim-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FloodAnim-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC317B9929DDCF6D00ED52E6 /* FloodFillImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloodFillImageView.m; sourceTree = "<group>"; };
+		FC317B9A29DDCF6D00ED52E6 /* FloodFillImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloodFillImageView.h; sourceTree = "<group>"; };
+		FC317B9B29DDCF6E00ED52E6 /* UIImage+FloodFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FloodFill.m"; sourceTree = "<group>"; };
+		FC317B9C29DDCF6E00ED52E6 /* LinkedListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListStack.h; sourceTree = "<group>"; };
+		FC317B9D29DDCF6F00ED52E6 /* LinkedListStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListStack.m; sourceTree = "<group>"; };
+		FC317B9E29DDCF6F00ED52E6 /* UIImage+FloodFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FloodFill.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC317B7D29DDCF0E00ED52E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC317B7729DDCF0E00ED52E6 = {
+			isa = PBXGroup;
+			children = (
+				FC317B8229DDCF0E00ED52E6 /* FloodAnim */,
+				FC317B8129DDCF0E00ED52E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC317B8129DDCF0E00ED52E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC317B8029DDCF0E00ED52E6 /* FloodAnim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC317B8229DDCF0E00ED52E6 /* FloodAnim */ = {
+			isa = PBXGroup;
+			children = (
+				FC317B9729DDCF5000ED52E6 /* FillSource */,
+				FC317B8329DDCF0E00ED52E6 /* AppDelegate.swift */,
+				FC317B8529DDCF0E00ED52E6 /* SceneDelegate.swift */,
+				FC317B8729DDCF0E00ED52E6 /* ViewController.swift */,
+				FC317B8929DDCF0E00ED52E6 /* Main.storyboard */,
+				FC317B8C29DDCF1000ED52E6 /* Assets.xcassets */,
+				FC317B8E29DDCF1000ED52E6 /* LaunchScreen.storyboard */,
+				FC317B9129DDCF1000ED52E6 /* Info.plist */,
+			);
+			path = FloodAnim;
+			sourceTree = "<group>";
+		};
+		FC317B9729DDCF5000ED52E6 /* FillSource */ = {
+			isa = PBXGroup;
+			children = (
+				FC317B9A29DDCF6D00ED52E6 /* FloodFillImageView.h */,
+				FC317B9929DDCF6D00ED52E6 /* FloodFillImageView.m */,
+				FC317B9C29DDCF6E00ED52E6 /* LinkedListStack.h */,
+				FC317B9D29DDCF6F00ED52E6 /* LinkedListStack.m */,
+				FC317B9E29DDCF6F00ED52E6 /* UIImage+FloodFill.h */,
+				FC317B9B29DDCF6E00ED52E6 /* UIImage+FloodFill.m */,
+				FC317B9829DDCF6C00ED52E6 /* FloodAnim-Bridging-Header.h */,
+			);
+			path = FillSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC317B7F29DDCF0E00ED52E6 /* FloodAnim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC317B9429DDCF1000ED52E6 /* Build configuration list for PBXNativeTarget "FloodAnim" */;
+			buildPhases = (
+				FC317B7C29DDCF0E00ED52E6 /* Sources */,
+				FC317B7D29DDCF0E00ED52E6 /* Frameworks */,
+				FC317B7E29DDCF0E00ED52E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloodAnim;
+			productName = FloodAnim;
+			productReference = FC317B8029DDCF0E00ED52E6 /* FloodAnim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC317B7829DDCF0E00ED52E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FC317B7F29DDCF0E00ED52E6 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = FC317B7B29DDCF0E00ED52E6 /* Build configuration list for PBXProject "FloodAnim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC317B7729DDCF0E00ED52E6;
+			productRefGroup = FC317B8129DDCF0E00ED52E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC317B7F29DDCF0E00ED52E6 /* FloodAnim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC317B7E29DDCF0E00ED52E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC317B9029DDCF1000ED52E6 /* LaunchScreen.storyboard in Resources */,
+				FC317B8D29DDCF1000ED52E6 /* Assets.xcassets in Resources */,
+				FC317B8B29DDCF0E00ED52E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC317B7C29DDCF0E00ED52E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC317B9F29DDCF6F00ED52E6 /* FloodFillImageView.m in Sources */,
+				FC317BA129DDCF6F00ED52E6 /* LinkedListStack.m in Sources */,
+				FC317B8829DDCF0E00ED52E6 /* ViewController.swift in Sources */,
+				FC317B8429DDCF0E00ED52E6 /* AppDelegate.swift in Sources */,
+				FC317BA029DDCF6F00ED52E6 /* UIImage+FloodFill.m in Sources */,
+				FC317B8629DDCF0E00ED52E6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC317B8929DDCF0E00ED52E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC317B8A29DDCF0E00ED52E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC317B8E29DDCF1000ED52E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC317B8F29DDCF1000ED52E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC317B9229DDCF1000ED52E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC317B9329DDCF1000ED52E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC317B9529DDCF1000ED52E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FloodAnim/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DonMag.FloodAnim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FloodAnim/FillSource/FloodAnim-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC317B9629DDCF1000ED52E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FloodAnim/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DonMag.FloodAnim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FloodAnim/FillSource/FloodAnim-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC317B7B29DDCF0E00ED52E6 /* Build configuration list for PBXProject "FloodAnim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC317B9229DDCF1000ED52E6 /* Debug */,
+				FC317B9329DDCF1000ED52E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC317B9429DDCF1000ED52E6 /* Build configuration list for PBXNativeTarget "FloodAnim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC317B9529DDCF1000ED52E6 /* Debug */,
+				FC317B9629DDCF1000ED52E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC317B7829DDCF0E00ED52E6 /* Project object */;
+}
