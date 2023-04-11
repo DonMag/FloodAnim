@@ -17,3 +17,5 @@ The basic idea:
 
 Lather, rinse, repeat.
 
+
+![Screen Recording 2023-04-05 at 13 27 40](https://user-images.githubusercontent.com/9865951/231149744-6abcf3a6-fe57-425e-b7cc-a3453a721c1d.gif)
