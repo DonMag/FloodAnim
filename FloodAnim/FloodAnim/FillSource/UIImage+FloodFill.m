@@ -12,10 +12,6 @@
 
 @implementation UIImage (FloodFill)
 
-- (void) rTest:(CGRect *)r {
-	r->origin.x = 100.0;
-}
-
 /*
     startPoint : Point from where you want to color. Generaly this is touch point.
                  This is important because color at start point will be replaced with other.
@@ -33,6 +29,7 @@
     return [self floodFillFromPoint:startPoint withColor:newColor andTolerance:tolerance useAntiAlias:YES boundsRect:nil];
 }
 
+// modified by DonMag to identify the bounds of the filled area
 - (UIImage *) floodFillFromPoint:(CGPoint)startPoint withColor:(UIColor *)newColor andTolerance:(NSInteger)tolerance useAntiAlias:(BOOL)antiAlias boundsRect:(CGRect *)bRect
 {
     @try
@@ -277,9 +274,6 @@
             }
         }
 		
-		NSLog(@"yMin: %ld / yMax: %ld", (long)yMin, (long)yMax);
-		NSLog(@"xMin: %ld / xMax: %ld", (long)xMin, (long)xMax);
-
         // For each point marked
         // perform antialiasing on the same pixel, plus the top,left,bottom and right pixel
         NSUInteger antialiasColor = getColorCodeFromUIColor(newColor,bitmapInfo&kCGBitmapByteOrderMask );

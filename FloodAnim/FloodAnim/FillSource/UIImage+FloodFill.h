@@ -14,6 +14,4 @@
 - (UIImage *) floodFillFromPoint:(CGPoint)startPoint withColor:(UIColor *)newColor andTolerance:(NSInteger)tolerance;
 - (UIImage *) floodFillFromPoint:(CGPoint)startPoint withColor:(UIColor *)newColor andTolerance:(NSInteger)tolerance useAntiAlias:(BOOL)antiAlias boundsRect:(CGRect *)bRect;
 
-- (void) rTest:(CGRect *)r;
-
 @end
